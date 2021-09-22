@@ -18,10 +18,10 @@ optional arguments:
 ## Encrypt
 
 ```bash
-python3 x0r.py -F myfile.tct -E -O encrypted
+python3 x0r.py -F myfile.txt -E -O encrypted
 ```
 ## Decrypt
 
 ```bash
-python3 x0r.py -F myfile.tct -D -K myrandomkey -O decrypt.txt
+python3 x0r.py -F myfile.x0r -D -K myrandomkey -O decrypt.txt
 ```
